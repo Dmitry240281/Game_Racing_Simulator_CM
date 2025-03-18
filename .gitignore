@@ -1,0 +1,11 @@
+*
+!/RacingLibrary
+!.gitignore
+!CMakeLists.txt
+!CMakePresets.json
+!*.cpp
+!*.h
+!*.sln
+!*.vcxproj
+!*.filters
+!*.user
