@@ -15,6 +15,6 @@ class Broom : public AirVehicles {
     double coefficient{}; // Коэффициент сокращения расстояния
 public:
     RACINGLIBRARY_API Broom(int langth, double speed = 20, std::string name_av = "Метла");
-    RACINGLIBRARY_API double Race(int langth, double coefficient);
+   
     
 };

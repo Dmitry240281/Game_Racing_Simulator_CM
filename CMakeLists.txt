@@ -41,7 +41,7 @@ RacingLibrary/Vehicles.h
 add_library (RacingLibrary SHARED ${SOURCES} ${HEADERS})
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (Game_Racing_Simulator_CM "Game_Racing_Simulator_CM.cpp" "Game_Racing_Simulator_CM.h")
+add_executable (Game_Racing_Simulator_CM "Game_Racing_Simulator_CM.cpp")
 
 target_link_libraries (Game_Racing_Simulator_CM RacingLibrary)
 

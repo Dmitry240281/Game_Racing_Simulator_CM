@@ -47,7 +47,7 @@ Vehicles* Registration_vehicles(int& s, int length, int type_race, Vehicles* All
         else std::cout << "Ошибка!" << std::endl;
 
         std::cout << "Зарегистрированные транспортные средства: ";
-        for (int i = 0; i < s; i++) std::cout << AllV_arr[i].Name() << ", ";
+        for (int i = 0; i < s; i++) std::cout << AllV_arr[i].Name() << (i<s-1 ? ", " : ".");
         std::cout << std::endl;
         std::cout << "1. Ботинки-вездеходы" << std::endl;
         std::cout << "2. Метла" << std::endl;

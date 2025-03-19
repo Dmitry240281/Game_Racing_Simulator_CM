@@ -12,7 +12,7 @@ GroundVehicles::GroundVehicles(int langth, double race, double speed, double tim
     this->name = name;
     this->race = race;
 }
-double GroundVehicles::race_gv(int len_dist) {
+double GroundVehicles::Race_gv(int len_dist) {
     double t_move = len_dist / speed;
     int stopping = t_move / time_mov;
     if (fmod(t_move, time_mov) == 0) stopping--;

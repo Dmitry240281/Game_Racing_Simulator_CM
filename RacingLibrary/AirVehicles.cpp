@@ -8,7 +8,7 @@ AirVehicles::AirVehicles(int langth, double race, double speed, std::string name
     this->race = race;
 };
 
-double AirVehicles::race_av(int langth, double coefficient) {
+double AirVehicles::Race_av(int langth, double coefficient) {
     double l = langth * coefficient;
     double t_gen = l / speed;
     return t_gen;

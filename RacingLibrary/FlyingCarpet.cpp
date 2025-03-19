@@ -15,9 +15,5 @@ FlyingCarpet::FlyingCarpet(int langth, double speed, std::string name_av) : AirV
 	else if (langth >= 1000 && langth < 5000) this->coefficient = 0.97;
 	else if (langth >= 5000 && langth < 10000) this->coefficient = 0.9;
 	else if (langth >= 10000) this->coefficient = 0.95;
-	this->race = Race(langth, coefficient);
-}
-
-double FlyingCarpet::Race(int langth, double coefficient) {
-	return AirVehicles::race_av(langth, coefficient);
+	this->race = Race_av(langth, coefficient);
 }
