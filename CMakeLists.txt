@@ -11,6 +11,8 @@ endif()
 
 project ("Game_Racing_Simulator_CM")
 
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
+
 set (SOURCES
 RacingLibrary/AirVehicles.cpp
 RacingLibrary/BootsAllTerrain.cpp
@@ -42,6 +44,8 @@ add_library (RacingLibrary SHARED ${SOURCES} ${HEADERS})
 
 # Добавьте источник в исполняемый файл этого проекта.
 add_executable (Game_Racing_Simulator_CM "Game_Racing_Simulator_CM.cpp")
+
+target_compile_definitions(RacingLibrary PRIVATE RACINGLIBRARYDYNAMIC_EXPORTS)
 
 target_link_libraries (Game_Racing_Simulator_CM RacingLibrary)
 

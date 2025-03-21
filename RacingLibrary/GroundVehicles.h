@@ -13,10 +13,10 @@ protected:
     double time_rest_2{}; // Длительность отдыха второй раз
     double time_rest_all{}; // Длительность отдыха последующие разы
 public:
-    RACINGLIBRARY_API GroundVehicles();
-    RACINGLIBRARY_API GroundVehicles(int langth, double race, double speed, double time_mov, double time_rest_1, double time_rest_2, double time_rest_all, std::string name, int type = 1);
-    RACINGLIBRARY_API double Race_gv(int len_dist);
-    RACINGLIBRARY_API std::string Name();
-    RACINGLIBRARY_API double Race();
+    GroundVehicles();
+    GroundVehicles(int langth, double race, double speed, double time_mov, double time_rest_1, double time_rest_2, double time_rest_all, std::string name, int type = 1);
+    double Race_gv(int len_dist);
+    std::string Name();
+    double Race();
 
 };

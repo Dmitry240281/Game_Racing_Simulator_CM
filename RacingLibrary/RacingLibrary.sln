@@ -5,6 +5,11 @@ VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RacingLibrary", "RacingLibrary.vcxproj", "{E6F44941-C3A9-4745-83BC-1609DD7FB27B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{C0BFEDFF-7B50-462E-BE39-6A58FB384BB5}"
+	ProjectSection(SolutionItems) = preProject
+		..\Game_Racing_Simulator_CM.cpp = ..\Game_Racing_Simulator_CM.cpp
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

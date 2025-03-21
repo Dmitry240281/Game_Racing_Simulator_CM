@@ -8,8 +8,8 @@ protected:
     std::string name;
     double speed{}; // Скорость 
 public:
-    RACINGLIBRARY_API AirVehicles();
-    RACINGLIBRARY_API AirVehicles(int langth, double race, double speed, std::string name, int type = 2);
-    RACINGLIBRARY_API double Race_av(int langth, double coefficient);
-    RACINGLIBRARY_API std::string Name_av();
+    AirVehicles();
+    AirVehicles(int langth, double race, double speed, std::string name, int type = 2);
+    double Race_av(int langth, double coefficient);
+     std::string Name_av();
 };

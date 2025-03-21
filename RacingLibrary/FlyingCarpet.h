@@ -16,5 +16,5 @@
 class FlyingCarpet : public AirVehicles {
     double coefficient{}; // Коэффициент сокращения расстояния
 public:
-    RACINGLIBRARY_API FlyingCarpet(int langth, double speed = 10, std::string name_av = "Ковер-самолет");
+    FlyingCarpet(int langth, double speed = 10, std::string name_av = "Ковер-самолет");
 };

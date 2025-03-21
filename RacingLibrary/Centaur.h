@@ -14,5 +14,5 @@
 
 class Centaur : public GroundVehicles {
 public:
-    RACINGLIBRARY_API Centaur(int langth, double speed = 15, double time_mov = 8, double time_rest_all = 2, std::string name = "Кентавр");
+    Centaur(int langth, double speed = 15, double time_mov = 8, double time_rest_all = 2, std::string name = "Кентавр");
 };

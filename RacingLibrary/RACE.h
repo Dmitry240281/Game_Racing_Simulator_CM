@@ -23,7 +23,7 @@ class RACE {
 	int type_race{}; // Тип гонки
 	Vehicles* AllV_arr; // Массив с выбранными транспортными средствами
 public:	
-	RACINGLIBRARY_API RACE(int length, int type_race, Vehicles* AllV_arr); // Конструкт
-	RACINGLIBRARY_API int Check(Vehicles* AllV_arr, Vehicles Name, int& s); // Проверка т.с. на различные условия
-	RACINGLIBRARY_API Vehicles* Main_race(int length, int type_race, int s, Vehicles* AllV_arr); // Сортировка рузультатов гонки пузырьковым методом
+	RACE(int length, int type_race, Vehicles* AllV_arr); // Конструкт
+	int Check(Vehicles* AllV_arr, Vehicles Name, int& s); // Проверка т.с. на различные условия
+	Vehicles* Main_race(int length, int type_race, int s, Vehicles* AllV_arr); // Сортировка рузультатов гонки пузырьковым методом
 };
