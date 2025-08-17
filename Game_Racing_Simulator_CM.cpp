@@ -1,7 +1,7 @@
 ﻿// Game Racing Simulator_sm.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 
 #include <iostream>
-#include <Windows.h>
+//#include <Windows.h>
 
 #include "RacingLibrary/RACE.h"
 
@@ -104,9 +104,10 @@ Vehicles* Registration_vehicles(int& s, int length, int type_race, Vehicles* All
 
 int main()
 {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
+    //SetConsoleCP(1251);
+    //SetConsoleOutputCP(1251);
 
+    setlocale(LC_ALL, "rus");
     int select3{};
     do {
         int size{}; // Размер массива
